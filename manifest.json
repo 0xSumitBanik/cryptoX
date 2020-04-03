@@ -1,0 +1,19 @@
+{
+    "name": "CryptoX",
+    "version": "3.0.0",
+    "description": "The Top 10 Cryptocurrencies ranking from highest to lowest",
+    "manifest_version": 2,
+    "icons": {
+        "16": "files/img/icon-16.png",
+        "48": "files/img/icon-48.png",
+        "128": "files/img/icon-128.png"
+    },
+    "browser_action": {
+        "default_icon": "files/img/icon-48.png",
+        "default_popup": "extension.html"
+    },
+
+    "background": {
+        "scripts": ["files/js/extension.js"]
+      }
+}
